@@ -162,3 +162,5 @@ export function AnimateNumber({
     </span>
   );
 }
+
+export default AnimateNumber;
