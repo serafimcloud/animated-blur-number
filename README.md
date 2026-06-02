@@ -16,16 +16,17 @@ Inspired by iOS's `.contentTransition(.numericText())` and [motion.dev](https://
 - **Directional.** Rolls up on increase, down on decrease.
 - **SSR-safe.** Formats with a fixed locale (default `en-US`) so server and client agree - no hydration drift.
 - **Accessible.** The full value is exposed to screen readers; the animated slots are `aria-hidden`. Honors `prefers-reduced-motion` (instant swap, no blur).
-- **Zero runtime dependencies.** Just React + one CSS file. Copy two files in.
+- **Zero runtime dependencies.** Just React - a single self-contained file. Styles are embedded and injected once at runtime, so there's no CSS file or config to wire up.
 
 ## Install
 
-This is a copy-in component (no package to install). Grab the two files:
+From the [21st.dev](https://21st.dev) registry (one command):
 
-- [`src/components/animate-number.tsx`](src/components/animate-number.tsx)
-- [`src/components/animate-number.css`](src/components/animate-number.css)
+```bash
+npx @21st-dev/registry add @REGISTRY_HANDLE/animated-blur-number
+```
 
-Drop them into your project. The `.tsx` imports its own `.css`, so a bundler that handles CSS imports (Next.js, Vite, etc.) is all you need.
+Or just copy the single file - [`src/components/animate-number.tsx`](src/components/animate-number.tsx) - into your project. No CSS file, no config: styles are embedded and injected at runtime. (React 18+.)
 
 ## Usage
 
