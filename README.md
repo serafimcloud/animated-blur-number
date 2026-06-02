@@ -23,7 +23,7 @@ Inspired by iOS's `.contentTransition(.numericText())` and [motion.dev](https://
 From the [21st.dev](https://21st.dev) registry (one command):
 
 ```bash
-npx @21st-dev/registry add @REGISTRY_HANDLE/animated-blur-number
+npx @21st-dev/registry add @serafimcloud/animated-blur-number
 ```
 
 Or just copy the single file - [`src/components/animate-number.tsx`](src/components/animate-number.tsx) - into your project. No CSS file, no config: styles are embedded and injected at runtime. (React 18+.)
