@@ -10,8 +10,8 @@ export default function Home() {
   const [n, setN] = React.useState(1_204_837);
   const [price, setPrice] = React.useState(4999.0);
   const [pct, setPct] = React.useState(42.0);
-  const [blur, setBlur] = React.useState(10);
-  const [duration, setDuration] = React.useState(700);
+  const [blur, setBlur] = React.useState(21);
+  const [duration, setDuration] = React.useState(450);
   const [live, setLive] = React.useState(false);
 
   React.useEffect(() => {

@@ -118,8 +118,8 @@ export function AnimateNumber({
   locale = "en-US",
   prefix,
   suffix,
-  duration = 600,
-  blur = 8,
+  duration = 450,
+  blur = 21,
   className,
   ...rest
 }: AnimateNumberProps) {

@@ -55,8 +55,8 @@ import { AnimateNumber } from "@/components/animate-number";
 | `locale`    | `string`                    | `"en-US"`   | Formatting locale. Keep it fixed to avoid SSR hydration mismatches.|
 | `prefix`    | `React.ReactNode`           | `undefined` | Rendered before the number (e.g. `"$"`).                           |
 | `suffix`    | `React.ReactNode`           | `undefined` | Rendered after the number (e.g. `"%"`).                            |
-| `duration`  | `number` (ms)               | `600`       | Slide + blur duration.                                             |
-| `blur`      | `number` (px)               | `8`         | Peak blur of a changing digit. `0` disables the blur.              |
+| `duration`  | `number` (ms)               | `450`       | Slide + blur duration.                                             |
+| `blur`      | `number` (px)               | `21`        | Peak blur of a changing digit. `0` disables the blur.              |
 | `className` | `string`                    | `undefined` | Applied to the root; also forwards any other `<span>` props.       |
 
 > Tip: use a fixed-width font feature for the cleanest motion. The CSS already sets `font-variant-numeric: tabular-nums` on the root.
