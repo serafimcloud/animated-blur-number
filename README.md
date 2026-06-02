@@ -6,7 +6,7 @@ Inspired by iOS's `.contentTransition(.numericText())` and [motion.dev](https://
 
 ![animated-blur-number demo](public/demo.gif)
 
-**Live demo:** <!-- LIVE_DEMO -->coming up<!-- /LIVE_DEMO -->
+**Live demo:** <!-- LIVE_DEMO -->[animated-blur-number.vercel.app](https://animated-blur-number.vercel.app)<!-- /LIVE_DEMO -->
 
 ## Why it looks good
 
